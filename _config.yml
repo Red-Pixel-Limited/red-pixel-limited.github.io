@@ -20,12 +20,10 @@
 
 title: Red Pixel Limited
 email: sergejs.terentjevs@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: >-
+  We are IT consultancy specialising on systems design and developement.
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 # theme: jekyll-theme-hydejack
@@ -34,6 +32,8 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+accent_image: /assets/img/sidebar-bg.jpg
+
 author:
   # Used by `jekyll-feed`:
   name: Sergejs Terentjevs    
@@ -41,6 +41,9 @@ author:
     linkedin: sergejs-terentjevs-a619a484
     github: Red-Pixel-Limited
     email: sergejs.terentjevs@gmail.com
+
+copyright: © 2023 Red Pixel Limited. All rights reserved.
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -61,4 +64,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  
