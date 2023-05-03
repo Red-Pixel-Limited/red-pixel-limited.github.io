@@ -25,14 +25,11 @@ description: >-
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Build settings
-# theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
-
-accent_image: /assets/img/sidebar-bg.jpg
+menu:
+  - title: Projects
+    url:   /projects/
+  - title: Resume
+    url:   /resume/
 
 author:
   # Used by `jekyll-feed`:
@@ -44,6 +41,13 @@ author:
 
 copyright: © 2023 Red Pixel Limited. All rights reserved.
 
+# Build settings
+remote_theme: hydecorp/hydejack@v9
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+accent_image: /assets/img/sidebar-bg.jpg
 
 # Exclude from processing.
 # The following items will not be processed, by default.
