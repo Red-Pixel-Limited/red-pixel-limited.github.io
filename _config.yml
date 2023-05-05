@@ -21,7 +21,7 @@
 title: Red Pixel Limited
 email: sergejs.terentjevs@gmail.com
 description: >-
-  We are IT consultancy specialising on systems design and developement.
+  We are IT consultancy specialising on the systems design and developement
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -40,6 +40,8 @@ author:
     email: sergejs.terentjevs@gmail.com
 
 copyright: © 2023 Red Pixel Limited. All rights reserved.
+
+advertise: false
 
 # Build settings
 remote_theme: hydecorp/hydejack@v9
