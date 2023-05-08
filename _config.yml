@@ -22,10 +22,19 @@ title: Red Pixel Limited
 email: sergejs.terentjevs@gmail.com
 description: >-
   We are IT consultancy specialising on the systems design and developement
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+image:
+  path: /assets/img/sidebar-bg.jpg
+  srcset:
+    2880w: /assets/img/sidebar-bg.jpg
+    2560w: /assets/img/sidebar-bg-2560x1600.jpg
+    2169w: /assets/img/sidebar-bg-2169x1350.jpg
+    1440w: /assets/img/sidebar-bg-1440x900.jpg
+    720w:  /assets/img/sidebar-bg-720x450.jpg
 
 menu:
+  - title: People
+    url:   /people/
   - title: Projects
     url:   /projects/
   - title: Resume
@@ -39,10 +48,6 @@ author:
     github: Red-Pixel-Limited
     email: sergejs.terentjevs@gmail.com
 
-copyright: © 2023 Red Pixel Limited. All rights reserved.
-
-advertise: false
-
 # Build settings
 remote_theme: hydecorp/hydejack@v9
 plugins:
@@ -50,6 +55,8 @@ plugins:
   - jekyll-include-cache
 
 accent_image: /assets/img/sidebar-bg.jpg
+copyright: © 2023 Red Pixel Limited. All rights reserved.
+advertise: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
