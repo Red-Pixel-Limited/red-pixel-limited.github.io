@@ -19,43 +19,43 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Red Pixel Limited
-email: sergejs.terentjevs@gmail.com
+email: contact-us@red-pixel-ltd.co.uk
 description: >-
-  We are IT consultancy specialising on the systems design and developement
+  We provide IT services and solutions to businesses and individuals
 
 image:
   path: /assets/img/sidebar-bg.jpg
   srcset:
     2880w: /assets/img/sidebar-bg.jpg
     2560w: /assets/img/sidebar-bg-2560x1600.jpg
-    2169w: /assets/img/sidebar-bg-2169x1350.jpg
-    1440w: /assets/img/sidebar-bg-1440x900.jpg
-    720w:  /assets/img/sidebar-bg-720x450.jpg
+    2400w: /assets/img/sidebar-bg-2400x1600.jpg
+    1920w: /assets/img/sidebar-bg-1920x1280.jpg
+    640w:  /assets/img/sidebar-bg-640x426.jpg
 
 menu:
-  - title: People
-    url:   /people/
+  - title: About
+    url:   /index/
   - title: Projects
     url:   /projects/
-  - title: Resume
+  - title: People
     url:   /resume/
 
 author:
   # Used by `jekyll-feed`:
   name: Sergejs Terentjevs    
   social:
-    linkedin: sergejs-terentjevs-a619a484
     github: Red-Pixel-Limited
-    email: sergejs.terentjevs@gmail.com
+    email: contact-us@red-pixel-ltd.co.uk
+    linkedin: sergejs-terentjevs-a619a484
 
 # Build settings
-remote_theme: hydecorp/hydejack@v9
+remote_theme: hydecorp/hydejack@v9.1.6
 plugins:
   - jekyll-feed
   - jekyll-include-cache
 
 accent_image: /assets/img/sidebar-bg.jpg
-copyright: © 2023 Red Pixel Limited. All rights reserved.
+copyright: © 2024 Red Pixel Limited. All rights reserved.<br/><a href="https://find-and-update.company-information.service.gov.uk/company/11212396" target="_blank">GOV.UK Companies House page</a>
 advertise: false
 
 # Exclude from processing.
