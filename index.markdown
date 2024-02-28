@@ -47,18 +47,19 @@ cover: true
 <h2 class="hr-bottom">Our team</h2>
 
 <div class="columnar-img-text-block">
-    <img src="/assets/img/team/sergejs.jpg" width="35%">
+    <img src="/assets/img/team/sergejs.jpg" width="45%">
     <div class="text-block">
         <div class="caption">Sergejs Terentjevs</div>
         <div class="subtitle">Director of the company</div>
-        <p>sadasd dasdasd asdasdas dasdsa dasdasd asdasdasdasd asdasdas dasdasd asdasdxsa dsasds dasdsad asdasdsa fdasfdasf adfadfadf fsaff afsdf afaf afda afaf afaf afaf afafa afafs afafa afsafa afaf</p>
+        <p>The computer science graduate and senior software engineer with many years of experience in software design and development. He's been developing trading platforms, biometric solutions, distributed systems and addressing platform technical debt mostly specializing in backend development but also has experience developing UI and desktop applications.<br/>He started as VB.NET/C# developer moving to the JVM platform, also using logical, functional and other kinds of imperative programming languages daily and during studies. His passion is technologies, distributed systems and functional programming using <a href="https://www.haskell.org/" target="_blank">Haskell</a>, <a href="https://www.purescript.org/" target="_blank">PureScript</a>, <a href="https://www.scala-lang.org/" target="_blank">Scala</a>, <a href="https://www.rust-lang.org/" target="_blank">Rust</a> and <a href="https://lisp-lang.org/" target="_blank">Lisp</a> languages such as <a href="https://clojure.org/" target="_blank">Clojure</a>. Feel free to check Sergejs's portfolio and resume to learn more.</p>
     </div>
 </div>
 <div class="columnar-img-text-block">
-    <img src="/assets/img/team/anastasija.jpg" width="35%">
+    <img src="/assets/img/team/anastasija.jpg" width="45%">
     <div class="text-block">
         <div class="caption">Anastasija Nikulina</div>
         <div class="subtitle">Junior Developer</div>
+        <p>The college student for computer science or STEM (Science, Technology, Engineering and Mathematics) subjects. Her passion is computer science and gaming. She is proficient in the <a href="https://www.python.org/" target="_blank">Python</a> programming language and recently started learning <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a>.<br/>She is responsible for maintaining and developing the current portal. Also develops utilities and development tools such as editor plugins to improve the work process. Feel free to visit Anastasija's <a href="https://github.com/anana243" target="_blank" >GitHub page</a>.</p>
     </div>
 </div>
 
@@ -76,10 +77,10 @@ cover: true
 
 <div class="block">
     <img src="/assets/img/client/ebay.png" width="200px" style="padding: 10px 0px 30px 0px;">
-    <p>hdkjqwhadkjwhadkjhqwd djqwkdhqwd dwqdqd qwdwqdq dqwdqwdqdqwd</p>
+    <p>Hired to migrate <a href="https://www.gumtree.com/" target="_blank">Gumtree</a> to <a href="https://www.marktplaats.nl/" target="_blank">Markplaats</a> platform.</p>
 </div>
 
 <div class="block">
     <img src="/assets/img/client/nutmeg.png" width="200px" style="padding: 20px 0px 30px 5px;">
-    <p>hdkjqwhadkjwhadkjhqwd djqwkdhqwd dwqdqd qwdwqdq dqwdqwdqdqwd</p>
+    <p>Developed authentication service and trade re-balancer.</p>
 </div>
