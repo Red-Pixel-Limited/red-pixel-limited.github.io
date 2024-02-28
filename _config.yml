@@ -35,9 +35,9 @@ image:
 menu:
   - title: About
     url:   /index/
-  - title: Projects
-    url:   /projects/
-  - title: People
+  - title: Portfolio
+    url:   /portfolio/
+  - title: Resume
     url:   /resume/
 
 author:
