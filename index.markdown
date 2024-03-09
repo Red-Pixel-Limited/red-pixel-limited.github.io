@@ -20,7 +20,7 @@ cover: true
     width: 100%;
 }
 .text-block p {
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: justify;
 }
 .caption {
@@ -47,7 +47,7 @@ cover: true
 <h2 class="hr-bottom">Our team</h2>
 
 <div class="columnar-img-text-block">
-    <img src="/assets/img/team/sergejs.jpg" width="45%">
+    <img src="/assets/img/team/sergejs.jpg" width="40%">
     <div class="text-block">
         <div class="caption">Sergejs Terentjevs</div>
         <div class="subtitle">Director of the company</div>
@@ -55,7 +55,7 @@ cover: true
     </div>
 </div>
 <div class="columnar-img-text-block">
-    <img src="/assets/img/team/anastasija.jpg" width="45%">
+    <img src="/assets/img/team/anastasija.jpg" width="40%">
     <div class="text-block">
         <div class="caption">Anastasija Nikulina</div>
         <div class="subtitle">Junior Developer</div>
@@ -67,20 +67,21 @@ cover: true
 
 <div class="block">
     <img src="/assets/img/client/siriusxm.jpeg" width=200px>
-    <p class="justified">The Red Pixel Limited provides consultancy services to build new platform solutions covering user services. Such services enable access to the platform through the user devices and guarantee seamless authentication. The ultimate goal is to let users effortlessly access services such as satellite radio from the different types of devices that could be a car, a web browser or mobile device. The services are built following distributed systems best practices and implements functional programming concepts to value purity and referential transparency. Apart from development, the work also requires CI workflows building and infrastructure provisioning on top of the cloud provider.</p>
+    <p class="justified">The Red Pixel Limited provides consultancy services to build new platform solutions covering user services. Such services enable access to the platform through the user devices and guarantee seamless authentication. The ultimate goal is to let users effortlessly access services such as satellite radio from the different types of devices that could be a car, a web browser or mobile device. The services are built following distributed systems best practices and implements functional programming concepts to value purity and referential transparency. Besides development, the work also requires CI workflows building and infrastructure provisioning on top of the cloud provider.</p>
 </div>
 
 <div class="block">
     <img src="/assets/img/client/disneystreaming.jpg" width=200px>
-    <p class="justified">Working as a member of the core subscription team, Sergejs took part in building the second version of an existing product that manages users Disney+, ESPN+ and Hulu subscriptions. The newer version is built from the multiple independent components that can scale separately adapting to increasing users traffic. The product is also designed to be robust following principles of messaging and event-driven architecture. Thus having message delivery guarantees and the ability to consume messages eventually. The work anticipated a better subscriptions data model building and required on demand and full sweep data migration implementation. Development and going live happened gradually changing each subscription model at the time and then migrating each provider one by one. That helped to mitigate risks, i.e., initially releasing redesigned third-party subscriptions, then work was followed by in-app purchased subscriptions re-design and so on. The system was developed following functional programming ideology, and required a DevOps skillset.</p>
+    <p class="justified">Working as a member of the core subscription team, Sergejs took part in building the second version of an existing product that manages users Disney+, ESPN+ and Hulu subscriptions. The newer version is built from the multiple independent components that can scale separately adapting to increasing users traffic. The product is also designed to be robust following principles of messaging and event-driven architecture. Thus having message delivery guarantees and the ability to consume messages eventually. The work anticipated a better subscriptions data model building and required on demand and full sweep data migration implementation. Development and going live happened gradually changing each subscription model at the time and then migrating each provider one by one. That helped to mitigate risks initially releasing redesigned third-party subscriptions and then continuing to work on in-app purchase subscriptions etc. The system was developed following functional programming ideology, and required a DevOps skill-set.</p>
 </div>
 
 <div class="block">
-    <img src="/assets/img/client/ebay.png" width="200px" style="padding: 10px 0px 30px 0px;">
+    <img src="/assets/img/client/ebay.png" width="200px" style="padding: 20px 0px 30px 0px;">
     <p>Hired to migrate <a href="https://www.gumtree.com/" target="_blank">Gumtree</a> to <a href="https://www.marktplaats.nl/" target="_blank">Markplaats</a> platform.</p>
 </div>
 
 <div class="block">
-    <img src="/assets/img/client/nutmeg.png" width="200px" style="padding: 20px 0px 30px 5px;">
-    <p>Developed authentication service and trade re-balancer.</p>
+    <img src="/assets/img/client/nutmeg.png" width="200px" style="padding: 30px 0px 30px 5px;">
+    <p class="justified">Joining Nutmeg in 2018 the Red Pixel Limited had provided services in creating an authentication system that would authenticate users incoming requests. The system would suspend users making a number of the invalid requests, perform multi-factor authentication and grant privileges depending on audiences, i.e., granting specific rights if the user is signing in from China and other ones if from the United Kingdom.<br/>
+    Additionally the software such as trade simulator and profit re-balancer was built.</p>
 </div>
