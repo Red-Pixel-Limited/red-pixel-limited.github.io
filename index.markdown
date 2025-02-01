@@ -77,7 +77,9 @@ cover: true
 
 <div class="block">
     <img src="/assets/img/client/ebay.png" width="200px" style="padding: 20px 0px 30px 0px;">
-    <p>Hired to migrate <a href="https://www.gumtree.com/" target="_blank">Gumtree</a> to <a href="https://www.marktplaats.nl/" target="_blank">Markplaats</a> platform.</p>
+    <p>The Gumtree being as part of eBay Classified Group was acquired by Adevinta in 2020. The Red Pixel Limited was involved in the project   
+    
+     to migrate <a href="https://www.gumtree.com/" target="_blank">Gumtree</a> to <a href="https://www.marktplaats.nl/" target="_blank">Markplaats</a> platform.</p>
 </div>
 
 <div class="block">

@@ -1,62 +1,32 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Red Pixel Limited
-email: contact-us@red-pixel-ltd.co.uk
+lang:         en
+title:        Red Pixel Limited
+email:        contact-us@red-pixel-ltd.co.uk
 description: >-
-  We provide IT services and solutions to businesses and individuals
+  Team of experienced professionals in IT industry that focuses on delivering high quality digital solutions for our clients
+copyright:    © 2025 Red Pixel Limited. All rights reserved.<br/><a href="https://find-and-update.company-information.service.gov.uk/company/11212396" target="_blank">GOV.UK Companies House page</a>
+advertise:    false
 
-image:
-  path: /assets/img/sidebar-bg.jpg
-  srcset:
-    2880w: /assets/img/sidebar-bg.jpg
-    2560w: /assets/img/sidebar-bg-2560x1600.jpg
-    2400w: /assets/img/sidebar-bg-2400x1600.jpg
-    1920w: /assets/img/sidebar-bg-1920x1280.jpg
-    640w:  /assets/img/sidebar-bg-640x426.jpg
+accent_image: /assets/img/sidebar-bg.jpg
+accent_color: rgb(79,177,186)
+theme_color:  rgb(0,0,0)
+
+google_fonts: false
 
 menu:
-  - title: About
-    url:   /index/
-  - title: Portfolio
-    url:   /portfolio/
-  - title: Resume
-    url:   /resume/
+  - title:    Learn more
+    url:      /index/
 
 author:
-  # Used by `jekyll-feed`:
-  name: Sergejs Terentjevs    
+  name:       Sergejs Terentjevs    
   social:
-    github: Red-Pixel-Limited
-    email: contact-us@red-pixel-ltd.co.uk
-    linkedin: sergejs-terentjevs-a619a484
+    github:   Red-Pixel-Limited
+    email:    contact-us@red-pixel-ltd.co.uk
 
 # Build settings
 remote_theme: hydecorp/hydejack@v9.1.6
 plugins:
   - jekyll-feed
   - jekyll-include-cache
-
-accent_image: /assets/img/sidebar-bg.jpg
-copyright: © 2024 Red Pixel Limited. All rights reserved.<br/><a href="https://find-and-update.company-information.service.gov.uk/company/11212396" target="_blank">GOV.UK Companies House page</a>
-advertise: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
